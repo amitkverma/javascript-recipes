@@ -1,0 +1,32 @@
+{
+  "name": "javascript-recipes",
+  "version": "0.0.0",
+  "description": "Implementations of different javascript Recipes",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-shell": "^0.2.11",
+    "jsdoc": "3.3.0-alpha13",
+    "jshint-stylish": "^1.0.0"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "generate-docs" : "node_modules/.bin/jsdoc -c jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amitkverma/javascript-recipes"
+  },
+  "author": "@mgechev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amitkverma/javascript-recipes/issues"
+  },
+  "homepage": "https://github.com/amitkverma/javascript-recipes"
+}
